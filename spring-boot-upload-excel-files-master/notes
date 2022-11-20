@@ -1,0 +1,12 @@
+
+ CREATE TABLE tutorials (
+    id bigint(20) NOT NULL,
+    title varchar(255) NOT NULL,
+    description varchar(255),
+    published tinyint,
+    PRIMARY KEY (id)
+);
+
+sample xlsx file : tutorials.xlsx attached
+
+
